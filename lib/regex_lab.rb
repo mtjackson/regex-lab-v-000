@@ -1,8 +1,6 @@
 def starts_with_a_vowel?(word)
   if word.scan(/\b[aeiou]/).length >= 1
     return true
-  else
-    return false
   end
 end
 
