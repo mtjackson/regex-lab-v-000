@@ -11,7 +11,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text.scan([/[^\w](\w{5,5})[^\w]]/])
+  text.scan(/[^\w](\w{5,5})[^\w]/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
